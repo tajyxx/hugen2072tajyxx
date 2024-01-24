@@ -1,0 +1,138 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"singularity/3.8.3"
+
+Please check the spelling or version number. Also try "module spider ..."
+
+
+
+
+Due to MODULEPATH changes the following have been reloaded:
+  1) vcftools/0.1.16
+
+/ihome/crc/install/lmod/lmod/init/bash: line 57: export: bcftools: not a function
+/ihome/crc/install/lmod/lmod/init/bash: line 57: export: bgzip: not a function
+/ihome/crc/install/lmod/lmod/init/bash: line 57: export: htsfile: not a function
+/ihome/crc/install/lmod/lmod/init/bash: line 57: export: tabix: not a function
+
+The following have been reloaded with a version change:
+  1) singularity/3.9.6 => singularity/3.8.3
+
+/ihome/crc/install/lmod/lmod/init/bash: line 57: export: ash: not a function
+/ihome/crc/install/lmod/lmod/init/bash: line 57: export: catv: not a function
+/ihome/crc/install/lmod/lmod/init/bash: line 57: export: dnsd: not a function
+/ihome/crc/install/lmod/lmod/init/bash: line 57: export: hdparm: not a function
+/ihome/crc/install/lmod/lmod/init/bash: line 57: export: vcftools: not a function
+cp: missing destination file operand after ‘/ix1/hugen2072_2024s/ca/data.vcf’
+Try 'cp --help' for more information.
+/var/spool/slurmd/job2812341/slurm_script: line 16: bcftools: command not found
+/var/spool/slurmd/job2812341/slurm_script: line 17: bcftools: command not found
+/var/spool/slurmd/job2812341/slurm_script: line 18: bcftools: command not found
+PLINK v1.90b6.7 64-bit (2 Dec 2018)            www.cog-genomics.org/plink/1.9/
+(C) 2005-2018 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to data4.log.
+Options in effect:
+  --allow-extra-chr
+  --bcf data4.bcf.gz
+  --make-bed
+  --out data4
+
+773685 MB RAM detected; reserving 386842 MB for main workspace.
+--bcf: 1k variants complete.--bcf: 2k variants complete.--bcf: 3k variants complete.--bcf: data4-temporary.bed + data4-temporary.bim + data4-temporary.fam written.
+3261 variants loaded from .bim file.
+524 people (0 males, 0 females, 524 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to data4.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 524 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.998713.
+3261 variants and 524 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to data4.bed + data4.bim + data4.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+PLINK v1.90b6.7 64-bit (2 Dec 2018)            www.cog-genomics.org/plink/1.9/
+(C) 2005-2018 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to data4.log.
+Options in effect:
+  --bfile data4
+  --make-bed
+  --out data4
+  --update-sex /ix1/hugen2072_2024s/ca/sex.txt
+
+773685 MB RAM detected; reserving 386842 MB for main workspace.
+Warning: --make-bed input and output filenames match.  Appending '~' to input
+filenames.
+3261 variants loaded from .bim file.
+524 people (0 males, 0 females, 524 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to data4.nosex .
+--update-sex: 524 people updated.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 524 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.998713.
+3261 variants and 524 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to data4.bed + data4.bim + data4.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+PLINK v1.90b6.7 64-bit (2 Dec 2018)            www.cog-genomics.org/plink/1.9/
+(C) 2005-2018 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to case_freq.log.
+Options in effect:
+  --bfile data4
+  --filter /ix1/hugen2072_2024s/ca/phenotype.txt 2
+  --freq
+  --out case_freq
+
+773685 MB RAM detected; reserving 386842 MB for main workspace.
+3261 variants loaded from .bim file.
+524 people (245 males, 279 females) loaded from .fam.
+--filter: 262 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 262 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.998674.
+--freq: Allele frequencies (founders only) written to case_freq.frq .
+PLINK v1.90b6.7 64-bit (2 Dec 2018)            www.cog-genomics.org/plink/1.9/
+(C) 2005-2018 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to control_freq.log.
+Options in effect:
+  --bfile data4
+  --filter /ix1/hugen2072_2024s/ca/phenotype.txt 1
+  --freq
+  --out control_freq
+
+773685 MB RAM detected; reserving 386842 MB for main workspace.
+3261 variants loaded from .bim file.
+524 people (245 males, 279 females) loaded from .fam.
+--filter: 262 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 262 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.998752.
+--freq: Allele frequencies (founders only) written to control_freq.frq .
+PLINK v1.90b6.7 64-bit (2 Dec 2018)            www.cog-genomics.org/plink/1.9/
+(C) 2005-2018 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to gwas.log.
+Options in effect:
+  --adjust
+  --allow-no-sex
+  --assoc fisher
+  --bfile data4
+  --ci 0.95
+  --logistic
+  --out gwas
+  --pheno /ix1/hugen2072_2024s/ca/phenotype.txt
+
+773685 MB RAM detected; reserving 386842 MB for main workspace.
+3261 variants loaded from .bim file.
+524 people (245 males, 279 females) loaded from .fam.
+524 phenotype values present after --pheno.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 524 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.998713.
+3261 variants and 524 people pass filters and QC.
+Among remaining phenotypes, 262 are cases and 262 are controls.
+Writing C/C --assoc report to gwas.assoc.fisher ... 0%31%62%94%done.
+--adjust: Genomic inflation est. lambda (based on median chisq) = 3.04785.
+0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%--adjust values (3261 variants) written to gwas.assoc.fisher.adjusted .
+Writing logistic model association results to gwas.assoc.logistic ... 0%15%31%47%62%78%94%done.
+--adjust: Genomic inflation est. lambda (based on median chisq) = 3.52112.
+0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%--adjust values (3196 variants) written to gwas.assoc.logistic.adjusted .
